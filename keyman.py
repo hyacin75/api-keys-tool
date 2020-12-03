@@ -58,8 +58,8 @@ if command.lower() == "add":
 
 if command.lower() == "delete":
     if len(sys.argv) < 3:
-    usage()
-    quit()
+        usage()
+        quit()
 
 
     keyname = sys.argv[2]
