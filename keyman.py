@@ -57,6 +57,11 @@ if command.lower() == "add":
     quit()
 
 if command.lower() == "delete":
+    if len(sys.argv) < 3:
+    usage()
+    quit()
+
+
     keyname = sys.argv[2]
 
     # Quit if no such key exists
