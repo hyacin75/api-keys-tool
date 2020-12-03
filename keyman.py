@@ -11,7 +11,8 @@ import config
 
 def usage():
     print("Usage: %s COMMAND [keyname]\n" % sys.argv[0])
-    print("Where COMMAND is one of: add, delete, list\n")
+    print("Where COMMAND is one of: add, delete, list")
+    print("and [keyname] is required for add or delete\n")
 
 if len(sys.argv) < 2:
     usage()
